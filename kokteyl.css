@@ -1,0 +1,18 @@
+nav a {
+    font-size: 38px;
+    color: #483434;
+    text-decoration: unset;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.8s;
+    margin: 5px;
+ 
+   
+}
+
+nav a:hover 
+{   color: #FFF3E4;
+    background-color: #6B4F4F;
+
+}
+
