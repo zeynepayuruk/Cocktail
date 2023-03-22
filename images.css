@@ -16,3 +16,6 @@ img:hover
 
 }
 
+img::after{
+    content: "Koray";
+}

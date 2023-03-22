@@ -1,0 +1,51 @@
+<div class="card">
+		<img src="http://i.hizliresim.com/pPMNBL.jpg" alt="resim" />
+		<div class="text">
+      <h1>Buralara Yazı</h1>
+    </div>
+	</div>
+
+
+
+
+
+
+.card{
+
+  height:250px;
+  width:200px;
+  transition: all 0.5s;
+  position:relative;
+ 
+  
+}
+.card:hover{
+    
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2) 
+     
+}
+
+.card:hover .text{
+  display:block
+}
+
+.card .text{
+    position:absolute;
+    display:none;
+    transition: display 1s;
+}
+
+.card img{
+  height:250px;
+  width:200px;
+ position:absolute;
+  transition: opacity 0.5s
+  
+}
+.card:hover img{
+  opacity: 0.4;
+}
+
+
